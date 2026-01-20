@@ -17,6 +17,17 @@ a {
 .text-primary {
     color: #93cb52;
 }
+.text-center {
+    text-align: center;
+}
+
+/* padding */
+.py-1 {
+    padding: 1rem 0;
+}
+.p-1 {
+    padding: 1rem;
+}
 
 /* navbar */
 #navbar {
@@ -81,4 +92,38 @@ a {
 }
 .btn-primary:hover {
     background: #7ab436;
+}
+
+/* background */
+
+.bg-light {
+    background: #f4f4f4;
+    color: #333;
+}
+.l-heading {
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+.par {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+.m-heading {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+
+/* what */
+#what .items {
+    display: flex;
+}
+#what .items .item {
+    flex: 1;
+}
+#what .items .item i {
+    background: #93cb52;
+    border-radius: 50%;
+    margin-bottom: 1rem;
 }
