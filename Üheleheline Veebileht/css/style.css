@@ -100,6 +100,11 @@ a {
     background: #f4f4f4;
     color: #333;
 }
+.bg-dark {
+    background: #333;
+    color: #fff;
+}
+
 .l-heading {
     font-size: 4rem;
     margin-bottom: 0.75rem;
@@ -126,4 +131,23 @@ a {
     background: #93cb52;
     border-radius: 50%;
     margin-bottom: 1rem;
+}
+
+/* who */
+#who {
+    display: flex;
+}
+#who div {
+    flex: 1;
+}
+#who .who-img {
+    background: url('../img/people.png') no-repeat center center/cover;
+}
+#who ul {
+    list-style: none;
+    margin: 0.5rem 0;
+}
+#who ul li {
+    padding: 0.5rem 0;
+    border-bottom: #444 dotted 1px;
 }
